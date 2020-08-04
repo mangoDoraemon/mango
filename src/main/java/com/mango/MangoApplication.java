@@ -9,7 +9,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 /**
  * @author wjy
  */
-@SpringBootApplication(scanBasePackages = {"com.mango"})
+@SpringBootApplication(scanBasePackages = {"com.mango", "org.n3r.idworker"})
 @MapperScan(basePackages = "com.mango.mapper")
 public class MangoApplication {
 
